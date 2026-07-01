@@ -167,18 +167,6 @@ Suspicious SSH Password Guessing Followed by Valid Login and Local Account Creat
 
 This lab was performed in an isolated VirtualBox environment against systems I own/control. The commands and screenshots are for defensive education, SOC training, and portfolio documentation only.
 
-## Status
-
-This repo now includes the primary evidence set for the lab, including the final three account-manipulation screenshots showing the clean `attacker-lab2` rerun, PAM password change telemetry, and Wazuh event-row correlation.
-
-
-## SOC Interview Talking Points
-
-I would describe this project in an interview like this:
-
-> I built an isolated Wazuh lab with a Kali attacker, Ubuntu victim endpoint, and Wazuh manager. I simulated SSH password guessing, valid-account access, Linux host enumeration, payload transfer, cron persistence, and local account creation. Then I investigated the Wazuh alerts using fields like `agent.name`, `data.srcip`, `data.dstuser`, `rule.description`, `rule.level`, `rule.id`, `rule.mitre.id`, and `full_log`. The main SOC value was learning how to correlate multiple low/medium alerts into a higher-confidence incident timeline.
-
-Resume-ready bullets from this project:
 
 - Built an isolated Wazuh SOC lab with Kali Linux and Ubuntu endpoint telemetry to investigate Linux intrusion activity.
 - Simulated SSH password guessing, valid-account access, host enumeration, payload transfer, cron persistence, and local account creation.
