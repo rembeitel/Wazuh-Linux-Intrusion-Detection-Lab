@@ -119,35 +119,6 @@ Suspicious SSH Password Guessing Followed by Valid Login and Local Account Creat
 | Account Creation | `useradd attacker-test` / `attacker-lab2` | `T1136.001 - Local Account` |
 | Account Manipulation | Password lock/change and deletion | `T1098 - Account Manipulation`; `T1548.003 - Sudo and Sudo Caching` |
 
-## Evidence Preview
-
-### 1. Service discovery
-
-![Nmap service discovery](evidence/screenshots/01_nmap_service_discovery.png)
-
-### 2. Credential attack success
-
-![Hydra password attack success](evidence/screenshots/03_hydra_password_attack_success.png)
-
-### 3. Successful SSH login in Wazuh
-
-![Wazuh successful SSH full_log](evidence/screenshots/15_wazuh_successful_ssh_full_log.png)
-
-### 4. New user creation detected in Wazuh
-
-![Wazuh useradd alert](evidence/screenshots/20_wazuh_useradd_create_account_details.png)
-
-### 5. Clean rerun of user creation with attacker-lab2
-
-![Wazuh useradd attacker-lab2 details](evidence/screenshots/21_wazuh_useradd_attacker_lab2_details.png)
-
-### 6. Account manipulation detected through PAM password change
-
-![Wazuh password change attacker-lab2 details](evidence/screenshots/22_wazuh_password_change_attacker_lab2_details.png)
-
-### 7. Correlated account manipulation event rows
-
-![Wazuh account manipulation event rows](evidence/screenshots/23_wazuh_account_manipulation_event_rows.png)
 
 ## Key Analyst Takeaways
 
