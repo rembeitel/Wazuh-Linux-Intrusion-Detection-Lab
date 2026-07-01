@@ -138,8 +138,3 @@ This lab demonstrates that I can:
 - Correlate separate events into an incident timeline.
 - Explain containment, remediation, and visibility gaps.
 
-## Interview Answer
-
-A strong way to explain this project:
-
-> I built a Wazuh lab to practice SOC alert triage. I used Kali to generate SSH password guessing and post-login Linux activity against an Ubuntu endpoint running the Wazuh agent. I then investigated the Wazuh alerts by reviewing full logs, source IPs, usernames, rule levels, and MITRE mappings. The biggest lesson was correlation: an SSH success alone may be normal, but SSH failures followed by a valid login, sudo usage, and local account creation should be escalated as a potential compromise.
