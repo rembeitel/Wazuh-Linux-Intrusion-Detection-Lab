@@ -103,13 +103,6 @@ Suspicious SSH Password Guessing Followed by Valid Login and Local Account Creat
     └── incident-report-template.md
 ```
 
-## Best Files for SOC Review
-
-- [`docs/soc-analyst-focus.md`](docs/soc-analyst-focus.md) - role-relevant SOC skills, triage workflow, escalation notes, and interview talking points.
-- [`docs/detection-analysis.md`](docs/detection-analysis.md) - what Wazuh saw and how I interpreted the alerts.
-- [`docs/attack-timeline.md`](docs/attack-timeline.md) - attack sequence from recon to account creation.
-- [`templates/incident-report-template.md`](templates/incident-report-template.md) - a SOC-style incident report format.
-
 ## High-Level ATT&CK Coverage
 
 | Phase | Behavior | MITRE ATT&CK Mapping |
