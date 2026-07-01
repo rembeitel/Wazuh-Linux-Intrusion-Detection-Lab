@@ -1,6 +1,6 @@
 # Wazuh Linux Intrusion Detection Lab OVERVIEW
 
-(Find more details, pictures, and links in the repo files.)
+(Find a more detailed README with pictures and links in the repo files.)
 
 > A hands-on SOC analyst lab where I built a small attacker/victim/SIEM environment, generated realistic Linux intrusion activity, and investigated the resulting alerts in Wazuh.
 
